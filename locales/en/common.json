@@ -18,6 +18,7 @@
   "balance": "Balance",
   "updated": "Updated!",
   "priceDataFromCoingecko": "※ Price data is retrieved from CoinGecko",
+  "tryBlinks": "Try Solana Blinks",
   "CTARow": {
     "title": "Join Our Discord Community",
     "body": "Stay informed with the latest updates, news, and exclusive insights by joining our official Discord server.",
@@ -99,6 +100,7 @@
     "subtitle2": "This is a demo of the RC version"
   },
   "nav": {
+    "blinks": "Solana Blinks",
     "doc": "Doc",
     "news": "News",
     "privacy": "Privacy Policy"

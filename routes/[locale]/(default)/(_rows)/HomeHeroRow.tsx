@@ -37,6 +37,7 @@ import {
   SOLANA_LOGO_HORIZONTAL,
   SOLANA_LOGO_INVERT_HORIZONTAL,
 } from '@/components/utils/img.ts'
+import { DEFAULT_PATHS } from '@/islands/layouts/default/defaultNavs.ts'
 
 const logos = [
   {
@@ -132,8 +133,8 @@ export default function HomeHeroRow(
             {t('common.HomeHeroRow.subtitle2')}
           </p>
           <div className='flex flex-wrap items-center justify-center gap-3'>
-            <a href={appInfo.loginUrl}>
-              <Button>{t('common.aiChat')}</Button>
+            <a href={DEFAULT_PATHS.blinks}>
+              <Button>{t('common.tryBlinks')}</Button>
             </a>
             <a
               href={`https://github.com/${appInfo.githubRepo}`}

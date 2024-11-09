@@ -17,6 +17,7 @@
   "connectYourWallet": "ウォレットを接続してください",
   "balance": "残高",
   "updated": "更新完了!",
+  "tryBlinks": "Solana Blinks を試す",
   "priceDataFromCoingecko": "※ 価格データは CoinGecko より取得",
   "CTARow": {
     "title": "Discord コミュニティに参加しましょう",
@@ -99,6 +100,7 @@
     "subtitle2": "こちらは RC バージョンのデモです"
   },
   "nav": {
+    "blinks": "Solana Blinks",
     "doc": "ドキュメント",
     "news": "ニュース",
     "privacy": "プライバシーポリシー"

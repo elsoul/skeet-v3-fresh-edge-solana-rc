@@ -34,6 +34,7 @@ export const EAST_VENTURES_LINK = 'https://east.vc/'
 export const MIRAISE_LINK = 'https://miraise.vc/'
 export const PRISMA_LINK = 'https://prisma.io/'
 export const EXPO_LINK = 'https://expo.dev/'
+export const SOLANA_ACTIONS_WEB_LINK = 'https://solana.com/solutions/actions'
 
 export const SOLANA_VALIDATOR_LINK =
   'https://docs.solanalabs.com/operations/requirements'

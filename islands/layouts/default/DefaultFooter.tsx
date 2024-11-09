@@ -20,6 +20,7 @@ import {
 import { useTranslation } from '@/hooks/i18n/useTranslation.ts'
 import Link from '@/components/utils/Link.tsx'
 import { usePathname } from '@/hooks/i18n/usePathname.ts'
+import { ERPC_WEB_LINK } from '@/constants/links.ts'
 
 export default function DefaultFooter() {
   const t = useTranslation()
@@ -62,14 +63,15 @@ export default function DefaultFooter() {
           </div>
           <div class='flex w-full flex-col gap-3'>
             <a
-              href={appInfo.loginUrl}
+              href={ERPC_WEB_LINK}
               class={cn(
                 'py-2 text-sm',
                 linkBaseColor,
                 'flex items-center gap-4',
               )}
+              target='_blank'
             >
-              {t('common.aiChat')}
+              ERPC - Enhanced Solana RPC
             </a>
           </div>
           <div class='flex w-full flex-col gap-3'>

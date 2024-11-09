@@ -1,4 +1,3 @@
-import { appInfo } from '@/config.ts'
 import LogoHorizontalLink from '@/components/common/LogoHorizontalLink.tsx'
 import { cn } from '@/lib/utils.ts'
 import { useSignal } from '@preact/signals'
@@ -19,7 +18,6 @@ import {
 import { usePathname } from '@/hooks/i18n/usePathname.ts'
 import Link from '@/components/utils/Link.tsx'
 import { useTranslation } from '@/hooks/i18n/useTranslation.ts'
-import Button from '@/components/ui/Button.tsx'
 
 export default function DefaultModalNav() {
   const t = useTranslation()

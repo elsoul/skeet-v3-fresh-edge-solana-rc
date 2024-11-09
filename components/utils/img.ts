@@ -40,3 +40,5 @@ export const EPICS_DAO_PRODUCT_IMG = '/img/daos/EpicsDAO.jpg'
 
 export const ICON_OPOS_COMPRESSED_COIL = '/img/icon/opos/CompressedCoil.png'
 export const ICON_OPOS_SAGA_PHONE = '/img/icon/opos/SagaPhone.png'
+
+export const SOLANA_BLINKS_IMG = '/img/icon/solana/SolanaBlinks.webp'
