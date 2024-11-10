@@ -25,6 +25,11 @@ jobs:
         with:
           deno-version: v2.x
 
+      - name: Create .env file
+        run: |
+          echo "SOLANA_ENDPOINT=${{ secrets.SOLANA_ENDPOINT }}" > .env
+          echo "SOLANA_PRICE_ENDPOINT=${{ secrets.SOLANA_PRICE_ENDPOINT }}" >> .env
+
       - name: Build step
         run: "deno task build"
 

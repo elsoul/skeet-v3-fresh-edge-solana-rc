@@ -43,7 +43,7 @@ Demo: https://fresh-solana.skeeter.dev/
 - [Fresh](https://fresh.deno.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Solana Web3.js (v2)](https://github.com/solana-labs/solana-web3.js/)
+- [Solana Web3.js](https://github.com/solana-labs/solana-web3.js/)
 
 ## Getting Started
 

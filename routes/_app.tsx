@@ -125,6 +125,9 @@ export default define.page(function App({ Component, state, url }) {
         />
         <link rel='stylesheet' href={asset('/styles.css')} />
         <link rel='stylesheet' href={asset('/prism.css')} />
+        {url.href.includes('blinks') && (
+          <link rel='stylesheet' href={asset('/wallet-adapter.css')} />
+        )}
       </head>
       <body>
         <Component />

@@ -34,7 +34,6 @@ export default function BlinksHeroRow(
   { state }: Props,
 ) {
   const t = createTranslator(state.translationData)
-  console.log('BlinksHeroRow', state)
 
   return (
     <>
